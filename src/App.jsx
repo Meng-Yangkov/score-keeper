@@ -1,13 +1,13 @@
-import './App.css'
+import ScoreKeeper from './components/ScoreKeeper';
+import './App.css';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
-      
+      <ScoreKeeper numPlayers={5} target={3} />
     </>
   )
 }
 
-export default App
+export default App;
